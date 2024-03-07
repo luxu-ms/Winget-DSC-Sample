@@ -9,6 +9,10 @@ properties:
   configurationVersion: 0.2.0
   resources:
    - resource: Microsoft.WinGet.DSC/WinGetPackage
+     id: Notepad++.Notepad++
+     directives:
+       description: Install Notepad Plus Plus
+       allowPrerelease: true
      settings:
        id: Notepad++.Notepad++
        source: winget
