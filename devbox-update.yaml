@@ -1,0 +1,9 @@
+setupTasks:
+  - task: powershell
+    inputs: 
+      command: |
+        Set-Location 'C:\Workspaces\Winget-DSC-Sample'
+        git pull
+  - task: winget
+    inputs:
+      configurationFile: c:\Workspaces\Winget-DSC-Sample\workload.yaml
