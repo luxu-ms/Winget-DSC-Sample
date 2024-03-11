@@ -1,0 +1,8 @@
+setupTasks:
+  - task: git-clone
+    inputs:
+      repositoryUrl: https://github.com/luxu-ms/Winget-DSC-Sample.git
+      directory: C:\Workspaces
+  - task: winget
+    inputs:
+      configurationFile: C:\Workspaces\Winget-DSC-Sample\workload.yaml
