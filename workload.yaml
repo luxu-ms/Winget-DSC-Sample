@@ -16,4 +16,4 @@ properties:
      settings:
        id: Notepad++.Notepad++
        source: winget
-       version: '8.6.1'
+       version: '8.6.2'
